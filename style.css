@@ -1,39 +1,9 @@
 *{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
 body{font-family:Arial,sans-serif;background:#faf9ff;color:#29263a;line-height:1.7}
 nav{position:sticky;top:0;z-index:10;background:#fff;padding:18px 9%;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 18px #00000012}
-nav h2{color:#7857e8;letter-spacing:.5px}
-nav ul{display:flex;gap:26px;list-style:none}
-nav a{text-decoration:none;color:#29263a;font-weight:600}
-nav a:hover{color:#7857e8}
-.menu{display:none;border:0;background:none;font-size:25px;cursor:pointer}
-section{padding:85px 10%;text-align:center}
-.section-label{font-size:12px;letter-spacing:2.5px;color:#7857e8;font-weight:700;margin-bottom:7px}
-h2{font-size:34px;margin-bottom:30px}
-.hero{min-height:91vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#eee9ff 0%,#fff5fa 52%,#fff 100%);position:relative;overflow:hidden}
-.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;opacity:.35}
-.hero:before{width:280px;height:280px;background:#e0d6ff;left:-100px;top:80px}
-.hero:after{width:230px;height:230px;background:#ffd9e8;right:-70px;bottom:60px}
-.hero-content{max-width:760px;position:relative;z-index:1}
-.tag{letter-spacing:2.5px;font-size:12px;color:#7857e8;font-weight:700;margin-bottom:15px}
-.hero h1{font-size:60px;line-height:1.12;margin-bottom:12px}
-.hero h1 span{color:#7857e8}
-.hero h3{font-size:22px;margin-bottom:16px}
-.hero-content>p:not(.tag){max-width:610px;margin:0 auto 28px}
-.btn{display:inline-block;background:#7857e8;color:#fff;border:0;border-radius:28px;padding:13px 25px;text-decoration:none;font-weight:700;box-shadow:0 8px 20px #7857e83d;transition:.2s}
-.btn:hover{transform:translateY(-2px);background:#6240d5}
-.about-box{max-width:780px;margin:auto;background:#fff;border-radius:18px;padding:32px;box-shadow:0 8px 30px #0000000c}
-.cards{display:flex;justify-content:center;gap:22px;flex-wrap:wrap}
-.card{width:285px;background:#fff;border-radius:18px;padding:30px 24px;box-shadow:0 8px 30px #0000000c;transition:.2s}
-.card:hover{transform:translateY(-5px)}
-.card h3{color:#7857e8;margin:8px 0 10px}
-.icon{font-size:35px}
-.skills{display:flex;justify-content:center;gap:13px;flex-wrap:wrap;max-width:850px;margin:auto}
-.skills span{background:#fff;padding:11px 19px;border-radius:25px;box-shadow:0 5px 18px #00000010;font-weight:700}
-.closing{background:linear-gradient(135deg,#f0ebff,#fff0f7)}
-.closing h2{margin-bottom:10px}
-.closing p{max-width:650px;margin:auto}
-footer{background:#29263a;color:#fff;text-align:center;padding:20px}
-@media(max-width:700px){
-nav ul{display:none;position:absolute;top:65px;left:0;right:0;background:#fff;flex-direction:column;padding:20px;text-align:center;gap:14px}
-nav ul.show{display:flex}.menu{display:block}.hero h1{font-size:42px}section{padding:65px 7%}h2{font-size:29px}
-}
+nav h2{color:#7857e8}nav ul{display:flex;gap:26px;list-style:none}nav a{text-decoration:none;color:#29263a;font-weight:600}nav a:hover{color:#7857e8}.menu{display:none;border:0;background:none;font-size:25px}
+section{padding:85px 10%;text-align:center}h2{font-size:34px;margin-bottom:30px}.label,.tag{font-size:12px;letter-spacing:2.5px;color:#7857e8;font-weight:700;margin-bottom:8px}
+.hero{min-height:91vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#eee9ff,#fff5fa,#fff)}.hero>div{max-width:760px}.hero h1{font-size:60px;line-height:1.12;margin-bottom:12px}.hero h1 span{color:#7857e8}.hero h3{font-size:22px;margin-bottom:16px}.hero p:not(.tag){max-width:610px;margin:0 auto 28px}
+.btn{display:inline-block;background:#7857e8;color:#fff;border-radius:28px;padding:13px 25px;text-decoration:none;font-weight:700}.box,.card{background:#fff;border-radius:18px;padding:30px;box-shadow:0 8px 30px #0000000c}.box{max-width:780px;margin:auto}.cards{display:flex;justify-content:center;gap:22px;flex-wrap:wrap}.card{width:285px}.card h3{color:#7857e8;margin:8px 0 10px}.icon{font-size:35px}
+.skills{display:flex;justify-content:center;gap:13px;flex-wrap:wrap;max-width:850px;margin:auto}.skills span{background:#fff;padding:11px 19px;border-radius:25px;box-shadow:0 5px 18px #00000010;font-weight:700}.closing{background:linear-gradient(135deg,#f0ebff,#fff0f7)}footer{background:#29263a;color:#fff;text-align:center;padding:20px}
+@media(max-width:700px){nav ul{display:none;position:absolute;top:65px;left:0;right:0;background:#fff;flex-direction:column;padding:20px;text-align:center;gap:14px}nav ul.show{display:flex}.menu{display:block}.hero h1{font-size:42px}section{padding:65px 7%}}

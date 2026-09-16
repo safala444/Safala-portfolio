@@ -1,109 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Safala | Student Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safala | Student Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <h2>Safala</h2>
-    <button class="menu" onclick="toggleMenu()" aria-label="Open menu">☰</button>
-    <ul id="navLinks">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-    </ul>
-  </nav>
+<nav><h2>Safala</h2><button class="menu" onclick="toggleMenu()">☰</button>
+<ul id="navLinks"><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li></ul></nav>
 
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <p class="tag">STUDENT • CREATIVE • CURIOUS</p>
-      <h1>Hi, I'm <span>Safala</span> ✨</h1>
-      <h3>Grade 12 Student</h3>
-      <p>I’m a student who enjoys learning technology, creating things and turning ideas into projects.</p>
-      <a class="btn" href="#about">Explore My Portfolio</a>
-    </div>
-  </section>
+<section id="home" class="hero"><div>
+<p class="tag">STUDENT • CREATIVE • CURIOUS</p>
+<h1>Hi, I'm <span>Safala</span> ✨</h1><h3>Grade 12 Student</h3>
+<p>I enjoy learning technology, creating things and turning ideas into projects.</p>
+<a class="btn" href="#about">Explore My Portfolio</a></div></section>
 
-  <section id="about">
-    <p class="section-label">A LITTLE ABOUT ME</p>
-    <h2>About Me</h2>
-    <div class="about-box">
-      <p>
-        I am a Grade 12 student with an interest in technology, creativity and business.
-        I enjoy learning new skills, working on projects and discovering practical ways
-        to use technology. I believe every project is an opportunity to learn something new.
-      </p>
-    </div>
-  </section>
+<section id="about"><p class="label">A LITTLE ABOUT ME</p><h2>About Me</h2>
+<div class="box"><p>I am a Grade 12 student interested in technology, creativity and business. I enjoy learning new skills, working on projects and discovering practical ways to use technology.</p></div></section>
 
-  <section id="education">
-    <p class="section-label">MY JOURNEY</p>
-    <h2>Education</h2>
-    <div class="cards">
-      <div class="card">
-        <div class="icon">🎓</div>
-        <h3>Grade 12</h3>
-        <p>Currently continuing my higher secondary education and developing academic and practical skills.</p>
-      </div>
-      <div class="card">
-        <div class="icon">📚</div>
-        <h3>Learning & Growth</h3>
-        <p>Exploring programming, communication, creativity and project-based learning.</p>
-      </div>
-    </div>
-  </section>
+<section id="education"><p class="label">MY JOURNEY</p><h2>Education</h2><div class="cards">
+<div class="card"><div class="icon">🎓</div><h3>Grade 12</h3><p>Currently continuing my higher secondary education and developing academic and practical skills.</p></div>
+<div class="card"><div class="icon">📚</div><h3>Learning & Growth</h3><p>Exploring programming, communication, creativity and project-based learning.</p></div></div></section>
 
-  <section id="skills">
-    <p class="section-label">WHAT I CAN DO</p>
-    <h2>My Skills</h2>
-    <div class="skills">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>Java</span>
-      <span>Communication</span>
-      <span>Teamwork</span>
-      <span>Creativity</span>
-      <span>Problem Solving</span>
-    </div>
-  </section>
+<section id="skills"><p class="label">WHAT I CAN DO</p><h2>My Skills</h2>
+<div class="skills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Java</span><span>Communication</span><span>Teamwork</span><span>Creativity</span><span>Problem Solving</span></div></section>
 
-  <section id="projects">
-    <p class="section-label">THINGS I'VE CREATED</p>
-    <h2>My Projects</h2>
-    <div class="cards">
-      <div class="card">
-        <div class="icon">💻</div>
-        <h3>Personal Portfolio</h3>
-        <p>A responsive website created using HTML, CSS and JavaScript to present my skills and projects.</p>
-      </div>
-      <div class="card">
-        <div class="icon">🌸</div>
-        <h3>Creative Business Project</h3>
-        <p>A student business project focused on handcrafted products, branding, pricing and customer research.</p>
-      </div>
-      <div class="card">
-        <div class="icon">🧮</div>
-        <h3>JavaScript Calculator</h3>
-        <p>A beginner-friendly calculator project demonstrating JavaScript logic and interactive buttons.</p>
-      </div>
-    </div>
-  </section>
+<section id="projects"><p class="label">THINGS I'VE CREATED</p><h2>My Projects</h2><div class="cards">
+<div class="card"><div class="icon">💻</div><h3>Personal Portfolio</h3><p>A responsive website created using HTML, CSS and JavaScript.</p></div>
+<div class="card"><div class="icon">🌸</div><h3>Creative Business Project</h3><p>A student project focused on handcrafted products, branding, pricing and customer research.</p></div>
+<div class="card"><div class="icon">🧮</div><h3>JavaScript Calculator</h3><p>A beginner-friendly calculator project demonstrating JavaScript logic and interaction.</p></div></div></section>
 
-  <section class="closing">
-    <h2>Keep Learning. Keep Creating. ✨</h2>
-    <p>This portfolio contains only general student information and intentionally excludes private contact details.</p>
-  </section>
-
-  <footer>
-    <p>© 2026 Safala | Student Portfolio</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<section class="closing"><h2>Keep Learning. Keep Creating. ✨</h2><p>This portfolio intentionally excludes private contact details.</p></section>
+<footer><p>© 2026 Safala | Student Portfolio</p></footer>
+<script src="script.js"></script>
+</body></html>
